@@ -1,12 +1,50 @@
-CMakeLists.txt.user
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.swp
+*.swo
+*.egg-info/
+*.eggs/
+*.ipynb_checkpoints/
+.Python
+.env
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry
+poetry.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# CMake
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
+CMakeFiles/
+CMakeScripts/
 cmake_install.cmake
-install_manifest.txt
-compile_commands.json
 CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+Makefile
+build/
+CMakeLists.txt.user
+compile_commands.json
+
+# macOS 系統檔案
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+
+# Windows 系統檔案
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
